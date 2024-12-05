@@ -1,0 +1,91 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #121212; /* Fundo escuro */
+    --branco: #FFFFFF; /* Texto branco */
+    --laranja-halloween: #000000; /* Laranja escuro para o Halloween */
+    --roxo-halloween: #800080; /* Roxo, uma cor típica do Halloween */
+    --verde-halloween: #32CD32; /* Verde limão, um verde vibrante */
+    --preto: #000000; /* Preto para contraste */
+    --cinza: #B0B0B0; /* Cinza claro para textos */
+    --cinza-claro: #858585; /* Cinza mais claro para textos secundários */
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco); /* Texto claro para fundo escuro */
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--laranja-halloween); /* Cabeçalhos em laranja escuro */
+}
+
+/* Links */
+a {
+    color: var(--roxo-halloween); /* Links em roxo para um toque misterioso */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    color: var(--verde-halloween); /* Links mudam para verde ao passar o mouse */
+    text-decoration: underline; /* Sublinha links quando passamos o mouse */
+}
+
+/* Títulos e textos destacados */
+strong, b {
+    color: var(--laranja-halloween); /* Texto em negrito em laranja escuro */
+}
+
+/* Parágrafos e outros textos */
+p, li, span {
+    color: var(--cinza-claro); /* Texto de parágrafos e listas em cinza claro */
+}
+
+/* Formulários e inputs */
+input, textarea, select {
+    background-color: #333333; /* Fundo de inputs mais escuro */
+    color: var(--branco); /* Texto claro em inputs */
+    border: 1px solid #444444; /* Borda escura */
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--roxo-halloween); /* Borda roxa ao focar */
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--preto); /* Fundo do rodapé em preto */
+    color: var(--branco); /* Texto claro no rodapé */
+}
+
+/* Outros elementos textuais */
+blockquote {
+    color: var(--cinza-claro); /* Citações em cinza claro */
+}
+
+code {
+    background-color: #333333; /* Fundo escuro para código */
+    color: var(--branco); /* Texto de código em branco */
+}
+
+/* Botões */
+button {
+    background-color: var(--laranja-halloween); /* Fundo laranja para botões */
+    color: var(--branco); /* Texto claro em botões */
+    border: 1px solid #444444;
+}
+
+button:hover {
+    background-color: var(--roxo-halloween); /* Botões em roxo ao passar o mouse */
+}
